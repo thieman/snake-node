@@ -15,7 +15,7 @@ console.log('http server listening on %d', port);
 var wss = new WebSocketServer({server: server});
 
 var playerCounter = 0;
-var defaultMaxPlayers = 2;
+var defaultMaxPlayers = 1;
 var defaultGameSize = 70;
 var games = [];
 
