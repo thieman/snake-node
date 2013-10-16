@@ -16,7 +16,7 @@ var wss = new WebSocketServer({server: server});
 
 var playerCounter = 0;
 var defaultMaxPlayers = 2;
-var defaultGameSize = 40;
+var defaultGameSize = 70;
 var games = [];
 
 var findGame = function() {
