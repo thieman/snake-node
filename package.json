@@ -6,6 +6,7 @@
     "url": "git://github.com/einaros/ws.git"
   },
   "dependencies": {
+	"underscore": "1.5.2",
     "ws": "0.4.x",
     "express": "3.x"
   },
